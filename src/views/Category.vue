@@ -125,7 +125,7 @@ import MainLayout from "@/layouts/MainLayout.vue";
                     <div
                       class="flex flex-col grow mt-14 text-base font-semibold leading-none text-amber-300 max-md:mt-10 max-md:max-w-full"
                     >
-                      <h2 class="self-start uppercase tracking-[3px]">
+                      <h2 class="self-start uppercase tracking-[3px] mt-14">
                         Business
                       </h2>
                       <h3
@@ -139,7 +139,7 @@ import MainLayout from "@/layouts/MainLayout.vue";
                         magna aliqua. Non blandit massa enim nec.
                       </p>
                       <h2
-                        class="self-start mt-28 uppercase tracking-[3px] max-md:mt-10"
+                        class="self-start mt-36 uppercase tracking-[3px] max-md:mt-10 mt-20"
                       >
                         business
                       </h2>
@@ -236,7 +236,7 @@ import MainLayout from "@/layouts/MainLayout.vue";
       </div>
       <div class="mt-8 max-w-full w-[838px]">
         <div class="flex gap-5 max-md:flex-col">
-          <div class="flex flex-col w-[36%] max-md:ml-0 max-md:w-full">
+          <div class="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
             <img
               src="/public/images/category-1.png"
               alt=""

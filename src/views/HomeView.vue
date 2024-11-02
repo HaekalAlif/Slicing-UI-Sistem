@@ -16,7 +16,7 @@ export default {
           id: 1,
           name: "Floyd Miles",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-1.png",
+          imageSrc: "public/images/profil-4.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -24,7 +24,7 @@ export default {
           id: 2,
           name: "Dianne Russell",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-1.png",
+          imageSrc: "public/images/profil-3.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-orange-50",
         },
@@ -32,7 +32,7 @@ export default {
           id: 3,
           name: "Jenny Wilson",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-1.png",
+          imageSrc: "public/images/profil-2.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -241,8 +241,6 @@ export default {
     </section>
 
     <!-- Choose A Category Section -->
-
-    <!-- Choose A Category Section -->
     <section class="category-selection py-20">
       <h2
         class="self-center text-4xl font-bold tracking-tighter text-center leading-none text-gray-800"
@@ -251,10 +249,7 @@ export default {
       </h2>
       <div class="mt-12 w-full max-md:mt-10 max-md:max-w-full px-20">
         <div class="flex gap-5 max-md:flex-col">
-          <a
-            href="/category"
-            class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full"
-          >
+          <a href="/category" class="category-card">
             <div
               class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8"
             >
@@ -278,12 +273,9 @@ export default {
             </div>
           </a>
 
-          <a
-            href="/category"
-            class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full"
-          >
+          <a href="/category" class="category-card">
             <div
-              class="flex flex-col grow items-start p-8 w-full bg-blue-600 max-md:px-5 max-md:mt-8"
+              class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8"
             >
               <img
                 src="/public/images/cat-2.png"
@@ -291,20 +283,17 @@ export default {
                 alt="Startup category icon"
               />
               <h3
-                class="mt-4 text-3xl font-bold tracking-tighter leading-none text-orange-50"
+                class="mt-4 text-3xl font-bold tracking-tighter leading-none text-gray-800"
               >
                 Startup
               </h3>
-              <p class="self-stretch mt-1 text-base leading-7 text-white">
+              <p class="self-stretch mt-1 text-base leading-7 text-zinc-500">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
               </p>
             </div>
           </a>
 
-          <a
-            href="/category"
-            class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full"
-          >
+          <a href="/category" class="category-card">
             <div
               class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8"
             >
@@ -324,10 +313,7 @@ export default {
             </div>
           </a>
 
-          <a
-            href="/category"
-            class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full"
-          >
+          <a href="/category" class="category-card">
             <div
               class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8"
             >
@@ -349,7 +335,7 @@ export default {
         </div>
       </div>
     </section>
-
+    
     <!-- Why We Started Section -->
     <article
       class="flex flex-col items-start text-base font-bold max-md:pr-5 px-20"
@@ -529,3 +515,19 @@ export default {
     </section>
   </MainLayout>
 </template>
+
+<style scoped>
+/* Efek hover untuk semua kartu */
+.category-card:hover .flex {
+  background-color: #2563eb; /* Warna biru */
+  border-color: #2563eb; /* Ubah warna border ke biru */
+}
+
+.category-card:hover h3 {
+  color: #ffffff; /* Ubah warna teks judul ke putih */
+}
+
+.category-card:hover p {
+  color: #ffffff; /* Ubah warna teks deskripsi ke putih */
+}
+</style>

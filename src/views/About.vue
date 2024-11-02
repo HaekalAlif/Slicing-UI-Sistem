@@ -16,7 +16,7 @@ export default {
           id: 1,
           name: "Floyd Miles",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-1.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -24,7 +24,7 @@ export default {
           id: 2,
           name: "Dianne Russell",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-2.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-orange-50",
         },
@@ -32,7 +32,7 @@ export default {
           id: 3,
           name: "Jenny Wilson",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-3.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -40,7 +40,7 @@ export default {
           id: 4,
           name: "Leslie Alexa",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-4.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -48,7 +48,7 @@ export default {
           id: 5,
           name: "Guy Hawkins",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-5.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -56,7 +56,7 @@ export default {
           id: 6,
           name: "Eleanor Pena",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-6.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -64,7 +64,7 @@ export default {
           id: 7,
           name: "Robert Fox",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-7.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -72,7 +72,7 @@ export default {
           id: 8,
           name: "Jacob Jones",
           role: "Content Writer @Company",
-          imageSrc: "public/images/profil-4.png",
+          imageSrc: "public/images/orang-8.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
@@ -308,7 +308,7 @@ export default {
               :image-src="author.imageSrc"
               :rating-src="author.ratingSrc"
               :background-color="author.backgroundColor"
-              class="w-1/5 max-md:w-full max-sm:w-1/3"
+              class="w-[300px] max-lg:w-1/3 max-md:w-1/2 max-sm:w-full"
             />
           </div>
         </div>
