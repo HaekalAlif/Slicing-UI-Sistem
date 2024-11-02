@@ -55,7 +55,7 @@ export default {
     <!-- Background Section -->
     <section
       class="relative bg-cover bg-center bg-no-repeat h-screen"
-      style="background-image: url('src/assets/images/misc/cover.png')"
+      style="background-image: url('/public/images/cover.png')"
     >
       <!-- Overlay for darker background effect -->
       <div class="absolute inset-0 bg-black opacity-50"></div>
