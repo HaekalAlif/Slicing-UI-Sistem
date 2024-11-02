@@ -1,0 +1,16 @@
+@forward "font";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Sen";
+    src: url(/public/font/Sen-VariableFont_wght.ttf) format("woff");
+  }
+
+  h1 {
+    font-family: Sen;
+  }
+}
