@@ -38,7 +38,7 @@ export default {
         },
         {
           id: 4,
-          name: "Leslie Alexander",
+          name: "Leslie Alexa",
           role: "Content Writer @Company",
           imageSrc: "public/images/profil-1.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
@@ -378,14 +378,14 @@ export default {
 
     <!-- List of Authors Section -->
     <a href="/author" class="block">
-      <section class="author-list px-20 mt-20">
+      <section class="author-list mt-20">
         <h1
-          class="self-center text-4xl font-bold tracking-tighter leading-none text-gray-800"
+          class="self-center text-4xl font-bold tracking-tighter text-center leading-none text-gray-800"
         >
           List of Authors
         </h1>
         <div class="mt-12 w-full max-md:mt-10 max-md:max-w-full">
-          <div class="flex gap-5 max-md:flex-col">
+          <div class="flex flex-wrap gap-5 justify-center">
             <AuthorCard
               v-for="author in authors"
               :key="author.id"
@@ -394,6 +394,7 @@ export default {
               :image-src="author.imageSrc"
               :rating-src="author.ratingSrc"
               :background-color="author.backgroundColor"
+              class="w-[300px] max-lg:w-1/3 max-md:w-1/2 max-sm:w-full hover:bg-orange-100 transition-colors duration-200 rounded-lg"
             />
           </div>
         </div>
@@ -517,14 +518,13 @@ export default {
 </template>
 
 <style scoped>
-
 .category-card:hover .flex {
-  background-color: #2563eb; 
-  border-color: #2563eb; 
+  background-color: #2563eb;
+  border-color: #2563eb;
 }
 
 .category-card:hover h3 {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .category-card:hover p {

@@ -308,7 +308,7 @@ export default {
               :image-src="author.imageSrc"
               :rating-src="author.ratingSrc"
               :background-color="author.backgroundColor"
-              class="w-[300px] max-lg:w-1/3 max-md:w-1/2 max-sm:w-full"
+              class="w-[300px] max-lg:w-1/3 max-md:w-1/2 max-sm:w-full hover:bg-orange-100 transition-colors duration-200 rounded-lg"
             />
           </div>
         </div>
