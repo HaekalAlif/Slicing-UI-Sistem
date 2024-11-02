@@ -26,7 +26,7 @@ export default {
           role: "Content Writer @Company",
           imageSrc: "public/images/orang-2.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
-          backgroundColor: "bg-orange-50",
+          backgroundColor: "bg-zinc-100",
         },
         {
           id: 3,

@@ -281,17 +281,16 @@ export default {
 </template>
 
 <style scoped>
-/* Efek hover untuk semua kartu */
 .category-card:hover .flex {
-  background-color: #2563eb; /* Warna biru */
-  border-color: #2563eb; /* Ubah warna border ke biru */
+  background-color: #2563eb;
+  border-color: #2563eb;
 }
 
 .category-card:hover h3 {
-  color: #ffffff; /* Ubah warna teks judul ke putih */
+  color: #ffffff;
 }
 
 .category-card:hover p {
-  color: #ffffff; /* Ubah warna teks deskripsi ke putih */
+  color: #ffffff;
 }
 </style>

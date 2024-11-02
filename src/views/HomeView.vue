@@ -26,7 +26,7 @@ export default {
           role: "Content Writer @Company",
           imageSrc: "public/images/profil-3.png",
           ratingSrc: "src/assets/images/logo/sosmed.png",
-          backgroundColor: "bg-orange-50",
+          backgroundColor: "bg-zinc-100",
         },
         {
           id: 3,
@@ -335,7 +335,7 @@ export default {
         </div>
       </div>
     </section>
-    
+
     <!-- Why We Started Section -->
     <article
       class="flex flex-col items-start text-base font-bold max-md:pr-5 px-20"
@@ -517,17 +517,17 @@ export default {
 </template>
 
 <style scoped>
-/* Efek hover untuk semua kartu */
+
 .category-card:hover .flex {
-  background-color: #2563eb; /* Warna biru */
-  border-color: #2563eb; /* Ubah warna border ke biru */
+  background-color: #2563eb; 
+  border-color: #2563eb; 
 }
 
 .category-card:hover h3 {
-  color: #ffffff; /* Ubah warna teks judul ke putih */
+  color: #ffffff; 
 }
 
 .category-card:hover p {
-  color: #ffffff; /* Ubah warna teks deskripsi ke putih */
+  color: #ffffff;
 }
 </style>
