@@ -16,32 +16,32 @@ export default {
           id: 1,
           name: "Floyd Miles",
           role: "Content Writer @Company",
-          imageSrc: "/public/images/profil-4.png",
-          ratingSrc: "/src/assets/images/logo/sosmed.png",
+          imageSrc: "/images/profil-4.png",
+          ratingSrc: "/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
           id: 2,
           name: "Dianne Russell",
           role: "Content Writer @Company",
-          imageSrc: "/public/images/profil-3.png",
-          ratingSrc: "/src/assets/images/logo/sosmed.png",
+          imageSrc: "/images/profil-3.png",
+          ratingSrc: "/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
           id: 3,
           name: "Jenny Wilson",
           role: "Content Writer @Company",
-          imageSrc: "/public/images/profil-2.png",
-          ratingSrc: "/src/assets/images/logo/sosmed.png",
+          imageSrc: "/images/profil-2.png",
+          ratingSrc: "/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
           id: 4,
           name: "Leslie Alexa",
           role: "Content Writer @Company",
-          imageSrc: "/public/images/profil-1.png",
-          ratingSrc: "/src/assets/images/logo/sosmed.png",
+          imageSrc: "/images/profil-1.png",
+          ratingSrc: "/images/logo/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
       ],
@@ -55,7 +55,7 @@ export default {
     <!-- Background Section -->
     <section
       class="relative bg-cover bg-center bg-no-repeat h-screen"
-      style="background-image: url('/public/images/cover.png')"
+      style="background-image: url('/images/cover.png')"
     >
       <!-- Overlay for darker background effect -->
       <div class="absolute inset-0 bg-black opacity-50"></div>
