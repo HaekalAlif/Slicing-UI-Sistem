@@ -17,7 +17,7 @@ export default {
           name: "Floyd Miles",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-1.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -25,7 +25,7 @@ export default {
           name: "Dianne Russell",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-2.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -33,7 +33,7 @@ export default {
           name: "Jenny Wilson",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-3.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -41,7 +41,7 @@ export default {
           name: "Leslie Alexa",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-4.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -49,7 +49,7 @@ export default {
           name: "Guy Hawkins",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-5.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -57,7 +57,7 @@ export default {
           name: "Eleanor Pena",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-6.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -65,7 +65,7 @@ export default {
           name: "Robert Fox",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-7.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -73,7 +73,7 @@ export default {
           name: "Jacob Jones",
           role: "Content Writer @Company",
           imageSrc: "/images/orang-8.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
       ],

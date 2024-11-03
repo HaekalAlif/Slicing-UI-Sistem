@@ -17,7 +17,7 @@ export default {
           name: "Floyd Miles",
           role: "Content Writer @Company",
           imageSrc: "/images/profil-4.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -25,7 +25,7 @@ export default {
           name: "Dianne Russell",
           role: "Content Writer @Company",
           imageSrc: "/images/profil-3.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -33,7 +33,7 @@ export default {
           name: "Jenny Wilson",
           role: "Content Writer @Company",
           imageSrc: "/images/profil-2.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
         {
@@ -41,7 +41,7 @@ export default {
           name: "Leslie Alexa",
           role: "Content Writer @Company",
           imageSrc: "/images/profil-1.png",
-          ratingSrc: "/images/logo/sosmed.png",
+          ratingSrc: "/images/sosmed.png",
           backgroundColor: "bg-zinc-100",
         },
       ],
